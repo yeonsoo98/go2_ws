@@ -1,1 +1,0 @@
-/home/yeonsoo/workspace/go_ws/build/champ_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

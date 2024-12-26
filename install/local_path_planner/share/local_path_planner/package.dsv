@@ -1,9 +1,0 @@
-source;share/local_path_planner/hook/pythonpath.ps1
-source;share/local_path_planner/hook/pythonpath.dsv
-source;share/local_path_planner/hook/pythonpath.sh
-source;share/local_path_planner/hook/ament_prefix_path.ps1
-source;share/local_path_planner/hook/ament_prefix_path.dsv
-source;share/local_path_planner/hook/ament_prefix_path.sh
-source;../../build/local_path_planner/share/local_path_planner/hook/pythonpath_develop.ps1
-source;../../build/local_path_planner/share/local_path_planner/hook/pythonpath_develop.dsv
-source;../../build/local_path_planner/share/local_path_planner/hook/pythonpath_develop.sh

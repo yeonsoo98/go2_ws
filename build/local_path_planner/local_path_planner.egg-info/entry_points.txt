@@ -1,4 +1,0 @@
-[console_scripts]
-costmap = local_path_planner.costmap:main
-path_planner = local_path_planner.path_planner:main
-
