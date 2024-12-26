@@ -1,0 +1,1 @@
+/home/yeonsoo/workspace/go_ws/build/champ_msgs/rosidl_generator_cpp/champ_msgs/msg/pose.hpp

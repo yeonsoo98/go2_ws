@@ -1,0 +1,1 @@
+/home/yeonsoo/workspace/go_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c

@@ -1,0 +1,97 @@
+[0.005s] Invoking command in '/home/yeonsoo/workspace/go_ws/build/champ_base': CMAKE_PREFIX_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs:/home/yeonsoo/workspace/go_ws/install/champ:/home/yeonsoo/workspace/go_ws/install/go2_description:/home/yeonsoo/workspace/go_ws/install/go2_config:/home/yeonsoo/workspace/go_ws/install/champ_teleop:/home/yeonsoo/workspace/go_ws/install/champ_navigation:/home/yeonsoo/workspace/go_ws/install/champ_gazebo:/home/yeonsoo/workspace/go_ws/install/champ_bringup:/home/yeonsoo/workspace/go_ws/install/champ_base:/home/yeonsoo/workspace/go_ws/install/champ_description:/home/yeonsoo/workspace/go_ws/install/champ_config:/opt/ros/humble LD_LIBRARY_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs/lib:/home/yeonsoo/workspace/go_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake /home/yeonsoo/workspace/go_ws/src/unitree-go2-ros2/champ/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeonsoo/workspace/go_ws/install/champ_base
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.067s] -- The CXX compiler identification is GNU 11.4.0
+[0.070s] -- Detecting C compiler ABI info
+[0.105s] -- Detecting C compiler ABI info - done
+[0.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.109s] -- Detecting C compile features
+[0.109s] -- Detecting C compile features - done
+[0.110s] -- Detecting CXX compiler ABI info
+[0.155s] -- Detecting CXX compiler ABI info - done
+[0.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.159s] -- Detecting CXX compile features
+[0.159s] -- Detecting CXX compile features - done
+[0.160s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.236s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.277s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.297s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.299s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.337s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.338s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.386s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.405s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.436s] -- Looking for pthread.h
+[0.472s] -- Looking for pthread.h - found
+[0.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.510s] -- Found Threads: TRUE  
+[0.533s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.533s] -- Found champ_msgs: 0.1.0 (/home/yeonsoo/workspace/go_ws/install/champ_msgs/share/champ_msgs/cmake)
+[0.547s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.564s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.573s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.580s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.626s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.638s] -- Found champ: 0.1.0 (/home/yeonsoo/workspace/go_ws/install/champ/share/champ/cmake)
+[0.686s] -- Configuring done
+[0.703s] -- Generating done
+[0.710s] -- Build files have been written to: /home/yeonsoo/workspace/go_ws/build/champ_base
+[0.716s] Invoked command in '/home/yeonsoo/workspace/go_ws/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs:/home/yeonsoo/workspace/go_ws/install/champ:/home/yeonsoo/workspace/go_ws/install/go2_description:/home/yeonsoo/workspace/go_ws/install/go2_config:/home/yeonsoo/workspace/go_ws/install/champ_teleop:/home/yeonsoo/workspace/go_ws/install/champ_navigation:/home/yeonsoo/workspace/go_ws/install/champ_gazebo:/home/yeonsoo/workspace/go_ws/install/champ_bringup:/home/yeonsoo/workspace/go_ws/install/champ_base:/home/yeonsoo/workspace/go_ws/install/champ_description:/home/yeonsoo/workspace/go_ws/install/champ_config:/opt/ros/humble LD_LIBRARY_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs/lib:/home/yeonsoo/workspace/go_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake /home/yeonsoo/workspace/go_ws/src/unitree-go2-ros2/champ/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yeonsoo/workspace/go_ws/install/champ_base
+[0.716s] Invoking command in '/home/yeonsoo/workspace/go_ws/build/champ_base': CMAKE_PREFIX_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs:/home/yeonsoo/workspace/go_ws/install/champ:/home/yeonsoo/workspace/go_ws/install/go2_description:/home/yeonsoo/workspace/go_ws/install/go2_config:/home/yeonsoo/workspace/go_ws/install/champ_teleop:/home/yeonsoo/workspace/go_ws/install/champ_navigation:/home/yeonsoo/workspace/go_ws/install/champ_gazebo:/home/yeonsoo/workspace/go_ws/install/champ_bringup:/home/yeonsoo/workspace/go_ws/install/champ_base:/home/yeonsoo/workspace/go_ws/install/champ_description:/home/yeonsoo/workspace/go_ws/install/champ_config:/opt/ros/humble LD_LIBRARY_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs/lib:/home/yeonsoo/workspace/go_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/yeonsoo/workspace/go_ws/build/champ_base -- -j32 -l32
+[0.744s] [  8%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[0.745s] [ 16%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[0.746s] [ 25%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[6.509s] [ 33%] [32m[1mLinking CXX shared library libquadruped_controller.so[0m
+[7.050s] [ 33%] Built target quadruped_controller
+[7.068s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[8.167s] [ 50%] [32m[1mLinking CXX shared library libmessage_relay.so[0m
+[8.603s] [ 50%] Built target message_relay
+[8.618s] [ 58%] [32m[1mLinking CXX executable quadruped_controller_node[0m
+[8.618s] [ 66%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[8.773s] [ 66%] Built target quadruped_controller_node
+[9.282s] [ 75%] [32m[1mLinking CXX shared library libstate_estimation.so[0m
+[9.795s] [ 75%] Built target state_estimation
+[9.809s] [ 83%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[10.177s] [ 91%] [32m[1mLinking CXX executable message_relay_node[0m
+[10.360s] [ 91%] Built target message_relay_node
+[12.404s] [100%] [32m[1mLinking CXX executable state_estimation_node[0m
+[12.595s] [100%] Built target state_estimation_node
+[12.602s] Invoked command in '/home/yeonsoo/workspace/go_ws/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs:/home/yeonsoo/workspace/go_ws/install/champ:/home/yeonsoo/workspace/go_ws/install/go2_description:/home/yeonsoo/workspace/go_ws/install/go2_config:/home/yeonsoo/workspace/go_ws/install/champ_teleop:/home/yeonsoo/workspace/go_ws/install/champ_navigation:/home/yeonsoo/workspace/go_ws/install/champ_gazebo:/home/yeonsoo/workspace/go_ws/install/champ_bringup:/home/yeonsoo/workspace/go_ws/install/champ_base:/home/yeonsoo/workspace/go_ws/install/champ_description:/home/yeonsoo/workspace/go_ws/install/champ_config:/opt/ros/humble LD_LIBRARY_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs/lib:/home/yeonsoo/workspace/go_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/yeonsoo/workspace/go_ws/build/champ_base -- -j32 -l32
+[12.603s] Invoking command in '/home/yeonsoo/workspace/go_ws/build/champ_base': CMAKE_PREFIX_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs:/home/yeonsoo/workspace/go_ws/install/champ:/home/yeonsoo/workspace/go_ws/install/go2_description:/home/yeonsoo/workspace/go_ws/install/go2_config:/home/yeonsoo/workspace/go_ws/install/champ_teleop:/home/yeonsoo/workspace/go_ws/install/champ_navigation:/home/yeonsoo/workspace/go_ws/install/champ_gazebo:/home/yeonsoo/workspace/go_ws/install/champ_bringup:/home/yeonsoo/workspace/go_ws/install/champ_base:/home/yeonsoo/workspace/go_ws/install/champ_description:/home/yeonsoo/workspace/go_ws/install/champ_config:/opt/ros/humble LD_LIBRARY_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs/lib:/home/yeonsoo/workspace/go_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/yeonsoo/workspace/go_ws/build/champ_base
+[12.608s] -- Install configuration: ""
+[12.608s] -- Execute custom install script
+[12.608s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[12.614s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[12.618s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[12.622s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/lib/libquadruped_controller.so
+[12.626s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/bin/quadruped_controller_node
+[12.632s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/lib/libmessage_relay.so
+[12.636s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/bin/message_relay_node
+[12.640s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/lib/libstate_estimation.so
+[12.644s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/bin/state_estimation_node
+[12.649s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+[12.652s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/lib/champ_base/message_relay_node
+[12.656s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/lib/champ_base/state_estimation_node
+[12.661s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[12.667s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[12.671s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[12.676s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[12.681s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/environment/path.sh
+[12.685s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/environment/path.dsv
+[12.688s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/local_setup.bash
+[12.693s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/local_setup.sh
+[12.698s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/local_setup.zsh
+[12.703s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/local_setup.dsv
+[12.707s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/package.dsv
+[12.711s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[12.715s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.720s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.724s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[12.727s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[12.732s] -- Symlinking: /home/yeonsoo/workspace/go_ws/install/champ_base/share/champ_base/package.xml
+[12.737s] Invoked command in '/home/yeonsoo/workspace/go_ws/build/champ_base' returned '0': CMAKE_PREFIX_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs:/home/yeonsoo/workspace/go_ws/install/champ:/home/yeonsoo/workspace/go_ws/install/go2_description:/home/yeonsoo/workspace/go_ws/install/go2_config:/home/yeonsoo/workspace/go_ws/install/champ_teleop:/home/yeonsoo/workspace/go_ws/install/champ_navigation:/home/yeonsoo/workspace/go_ws/install/champ_gazebo:/home/yeonsoo/workspace/go_ws/install/champ_bringup:/home/yeonsoo/workspace/go_ws/install/champ_base:/home/yeonsoo/workspace/go_ws/install/champ_description:/home/yeonsoo/workspace/go_ws/install/champ_config:/opt/ros/humble LD_LIBRARY_PATH=/home/yeonsoo/workspace/go_ws/install/champ_msgs/lib:/home/yeonsoo/workspace/go_ws/install/champ_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/yeonsoo/workspace/go_ws/build/champ_base

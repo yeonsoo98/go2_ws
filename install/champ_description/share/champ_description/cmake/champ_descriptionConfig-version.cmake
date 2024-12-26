@@ -1,0 +1,1 @@
+/home/yeonsoo/workspace/go_ws/build/champ_description/ament_cmake_core/champ_descriptionConfig-version.cmake
