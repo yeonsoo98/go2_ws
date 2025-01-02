@@ -10,12 +10,12 @@ def generate_launch_description():
             name='costmap_generator',
             output='screen',
             parameters=[
-                {'lidar_topic': '/velodyne_points'},
-                {'imu_topic': '/imu/data'},
-                {'odom_topic': '/odom'},
-                {'map_width': 100},  
-                {'map_height': 100}, 
-                {'resolution': 0.05},
+                # {'lidar_topic': '/velodyne_points'},
+                # {'imu_topic': '/imu/data'},
+                # {'odom_topic': '/odom/ground_truth'},
+                # {'map_width': 100},  
+                # {'map_height': 100}, 
+                # {'resolution': 0.02},
                 {'use_sim_time': True}
             ]
         ),

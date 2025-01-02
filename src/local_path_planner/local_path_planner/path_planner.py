@@ -15,7 +15,7 @@ class PathPlanner(Node):
         # ---- 파라미터 ----
         self.declare_parameter('algorithm_name', 'dwa')
         self.declare_parameter('goal_arrival_tolerance', 0.2)
-        self.declare_parameter('plan_loop_rate', 5.0)  # Hz
+        self.declare_parameter('plan_loop_rate', 10.0)  # Hz
 
         self.algorithm_name = self.get_parameter('algorithm_name').get_parameter_value().string_value
         self.goal_arrival_tolerance = self.get_parameter('goal_arrival_tolerance').get_parameter_value().double_value
@@ -65,29 +65,22 @@ class PathPlanner(Node):
         self.get_logger().info("New goal received: (%.2f, %.2f)" % 
             (msg.pose.position.x, msg.pose.position.y))
 
+    # 여기 수정
     def update_cmd_vel(self):
-        """
-        주기적으로 플래너 실행
-        """
-        # 1) goal이 없는 경우, stop
-        if self.current_goal is None:
+        # 1) goal, costmap, odom 미존재 시 정지
+        if not self.current_goal or not self.current_costmap or not self.current_odom:
             self.publish_stop()
             return
 
-        # 2) odom, costmap이 준비 안 된 경우 -> stop
-        if self.current_costmap is None or self.current_odom is None:
-            self.publish_stop()
-            return
-
-        # 3) 이미 goal 근방에 도착한 경우 -> stop
+        # 2) 목표 도달 확인
         if self.is_goal_reached():
             if not self.arrived:
-                self.get_logger().info("Goal reached! Stop.")
+                self.get_logger().info("Goal reached! Stopping robot.")
             self.arrived = True
             self.publish_stop()
             return
 
-        # 4) 플래너 실행
+        # 3) DWA 알고리즘 실행
         cmd = self.planner.compute_velocity(
             costmap=self.current_costmap,
             odom=self.current_odom,
@@ -96,13 +89,10 @@ class PathPlanner(Node):
         self.cmd_vel_pub.publish(cmd)
 
     def is_goal_reached(self):
-        # simple check
-        gx = self.current_goal.pose.position.x
-        gy = self.current_goal.pose.position.y
-        rx = self.current_odom.pose.pose.position.x
-        ry = self.current_odom.pose.pose.position.y
-        dist = math.sqrt((gx - rx)**2 + (gy - ry)**2)
-        return (dist < self.goal_arrival_tolerance)
+        gx, gy = self.current_goal.pose.position.x, self.current_goal.pose.position.y
+        rx, ry = self.current_odom.pose.pose.position.x, self.current_odom.pose.pose.position.y
+        dist = math.hypot(gx - rx, gy - ry)
+        return dist < self.goal_arrival_tolerance
 
     def publish_stop(self):
         """

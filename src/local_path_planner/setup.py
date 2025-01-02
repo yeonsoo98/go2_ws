@@ -1,4 +1,6 @@
 from setuptools import setup
+import os
+from glob import glob
 
 package_name = 'local_path_planner'
 
@@ -8,7 +10,7 @@ setup(
     packages=[package_name],
     data_files=[
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/integrated_planner_launch.py']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -19,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'costmap = local_path_planner.costmap:main',  
-            'path_planner = local_path_planner.path_planner:main',  
+            'path_planner = local_path_planner.path_planner:main',
+            'dwa_planner = local_path_planner.dwa_planner:main',
         ],
     },
 )
