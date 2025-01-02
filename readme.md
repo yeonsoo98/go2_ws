@@ -1,6 +1,14 @@
+# Go2 - Local Path Planner Algorithm Test Simulator 개발
+- Go2 로봇을 Gazebo 환경에서, 다양한 Local Path Planner Algorithm을 검증하기 위해, 테스트 시뮬레이터 개발
+
+# 진행한 일
+- Go2 & Gazebo 환경 로봇 업로드
+- ...
+
 # 해야할 일
 - 센서 배치 
     - 다른 센서 고려
+    - velodyne lidar
     - 리복스 mid360
     - 아우스터 ouster
     - hesai 
@@ -34,3 +42,12 @@ ros2 launch local_path_planner integrated_planner_launch.py
 https://github.com/anujjain-dev/unitree-go2-ros2
 
 https://www.youtube.com/watch?v=PjWvf90l4cg / https://arxiv.org/abs/2306.14874
+
+https://github.com/abizovnuralem/go2_omniverse
+
+https://github.com/VincidaB/pfe
+
+
+
+# isaac gym - go2 강화학습
+- go2 로봇 띄우기
